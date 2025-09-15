@@ -1,0 +1,21 @@
+name: so_ban_hang_mvp
+description: So Ban Hang - offline, SQLite, in hoa don, gia si/le
+publish_to: "none"
+version: 1.2.0+3
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  intl: ^0.19.0
+  uuid: ^4.5.0
+  pdf: ^3.10.7
+  printing: ^5.11.1
+
+flutter:
+  uses-material-design: true
