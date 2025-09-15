@@ -1,7 +1,9 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    namespace "com.example.so_ban_hang"
     compileSdkVersion 33
 
     defaultConfig {
@@ -14,6 +16,7 @@ android {
 
     buildTypes {
         release {
+            // Dùng debug key để ký cho nhanh
             signingConfig signingConfigs.debug
         }
     }
